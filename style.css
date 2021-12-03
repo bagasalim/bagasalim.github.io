@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+body {
+  font-family: "Outfit", sans-serif, "Courier New", Courier, monospace;
+}
+
+.jumbotron {
+  padding-top: 7rem;
+  background: #dbd8e3;
+  height: 100vh;
+  position: relative;
+}
+
+.waves {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.jumbotron img {
+  width: 225px;
+  height: 225px;
+}
+
+section {
+  padding-top: 7rem;
+}
+
+.social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+.social-icons .social-icon:last-child {
+  margin-right: 0;
+}
+.social-icons .social-icon:hover {
+  background-color: #bd5d38;
+}
+
+#aboutme {
+  padding: 0, 2rem;
+}
+
+#projects {
+  background: #dbd8e3;
+}
+
+.card {
+  min-height: 375px;
+}
+
+footer {
+  padding: 2rem, 2rem;
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    background-color: black !important;
+  }
+}
